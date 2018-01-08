@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test - Suite">
+<test name="Coinsecure Login">
+<classes>
+    <!--<class name="logincases.SignUp" />-->
+    <!--<class name="logincases.LoginAuthy" />-->
+    <class name="logincases.LoginToken" />
+    <!--<class name="logincases.ForgotPassword" />-->
+</classes>
+</test>
+</suite>

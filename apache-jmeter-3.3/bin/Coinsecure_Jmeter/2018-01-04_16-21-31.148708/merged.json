@@ -1,0 +1,10 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "Coinsecure_WebRecord_Test.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ]
+}

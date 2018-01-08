@@ -1,0 +1,14 @@
+line 31 column 133 - Warning: Warning: unescaped & which should be written as &amp;
+line 31 column 220 - Warning: Warning: unescaped & which should be written as &amp;
+line 42 column 13 - Warning: unknown attribute "Exchange,"
+line 42 column 13 - Warning: unknown attribute "&"
+line 42 column 13 - Warning: <meta> attribute with missing trailing quote mark
+line 104 column 5 - Error: unexpected </head> in <link>
+line 144 column 56 - Error: unexpected </a> in <img>
+line 145 column 5 - Error: unexpected </div> in <img>
+line 153 column 16 - Error: unexpected </a> in <p>
+line 153 column 20 - Error: unexpected </div> in <p>
+line 161 column 1 - Error: unexpected </div> in <p>
+13 warnings, 61 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.

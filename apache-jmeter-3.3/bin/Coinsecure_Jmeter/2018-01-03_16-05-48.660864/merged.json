@@ -1,0 +1,10 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "PostLogin.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+  <hashTree>
+    <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+      <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+        <boolProp name="LoopController.continue_forever">false</boolProp>
+        <stringProp name="LoopController.loops">1</stringProp>
+      </elementProp>
+      <stringProp name="ThreadGroup.num_threads">1</stringProp>
+      <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+      <longProp name="ThreadGroup.start_time">1514869253000</longProp>
+      <longProp name="ThreadGroup.end_time">1514869253000</longProp>
+      <boolProp name="ThreadGroup.scheduler">false</boolProp>
+      <stringProp name="ThreadGroup.duration"/>
+      <stringProp name="ThreadGroup.delay"/>
+    </ThreadGroup>
+    <hashTree>
+      <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="JDBC Connection Configuration" enabled="true">
+        <boolProp name="autocommit">true</boolProp>
+        <stringProp name="checkQuery"/>
+        <stringProp name="connectionAge">5000</stringProp>
+        <stringProp name="dataSource"/>
+        <stringProp name="dbUrl"/>
+        <stringProp name="driver"/>
+        <boolProp name="keepAlive">true</boolProp>
+        <stringProp name="password"/>
+        <stringProp name="poolMax">0</stringProp>
+        <stringProp name="timeout">10000</stringProp>
+        <stringProp name="transactionIsolation">DEFAULT</stringProp>
+        <stringProp name="trimInterval">60000</stringProp>
+        <stringProp name="username"/>
+      </JDBCDataSource>
+      <hashTree/>
+    <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="KPI Writer"><stringProp name="filename">/Users/irfan/Documents/workspace/loginApiTest/apache-jmeter-3.3/bin/Coinsecure_Jmeter/2018-01-04_16-21-31.148708/kpi.jtl</stringProp><objProp><name>saveConfig</name><value class="SampleSaveConfiguration"><code>true</code><encoding>false</encoding><threadCounts>true</threadCounts><samplerData>false</samplerData><assertions>false</assertions><message>true</message><responseHeaders>false</responseHeaders><xml>false</xml><latency>true</latency><requestHeaders>false</requestHeaders><hostname>true</hostname><fieldNames>true</fieldNames><label>true</label><subresults>false</subresults><saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage><dataType>false</dataType><timestamp>true</timestamp><responseData>false</responseData><success>true</success><url>false</url><threadName>true</threadName><bytes>true</bytes><responseDataOnError>false</responseDataOnError><time>true</time></value></objProp></ResultCollector><hashTree/><ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Errors Writer"><stringProp name="filename">/Users/irfan/Documents/workspace/loginApiTest/apache-jmeter-3.3/bin/Coinsecure_Jmeter/2018-01-04_16-21-31.148708/error.jtl</stringProp><objProp><name>saveConfig</name><value class="SampleSaveConfiguration"><code>true</code><encoding>true</encoding><threadCounts>true</threadCounts><samplerData>false</samplerData><assertions>true</assertions><message>true</message><responseHeaders>true</responseHeaders><xml>true</xml><latency>true</latency><requestHeaders>true</requestHeaders><fieldNames>true</fieldNames><label>true</label><subresults>true</subresults><saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage><dataType>true</dataType><timestamp>true</timestamp><responseData>false</responseData><success>true</success><url>true</url><threadName>true</threadName><bytes>true</bytes><responseDataOnError>true</responseDataOnError><time>true</time></value></objProp><boolProp name="ResultCollector.error_logging">true</boolProp></ResultCollector><hashTree/></hashTree>
+  </hashTree>
+</jmeterTestPlan>
