@@ -4,8 +4,8 @@
 <test name="Coinsecure Login">
 <classes>
     <!--<class name="logincases.SignUp" />-->
-    <class name="logincases.LoginAuthy" />
-    <!--<class name="logincases.LoginToken" />-->
+    <!--<class name="logincases.LoginAuthy" />-->
+    <class name="logincases.LoginToken" />
     <!--<class name="logincases.ForgotPassword" />-->
 </classes>
 </test>

@@ -16,7 +16,7 @@ public class ExecuteTest {
         DriverCreation dc = new DriverCreation();
         dc.setDriver();
         LoginToken loginToken = new LoginToken();
-        loginToken.loginToken("testingcs00@gmail.com", "password");
+        loginToken.loginToken("testing12@coinsecure.in", "password");
 //        ForgotPassword forgotPassword = new ForgotPassword();
 //        forgotPassword.forgotPassword("leon@coinsecure.co","password");
 //        SignUp signUp = new SignUp();
